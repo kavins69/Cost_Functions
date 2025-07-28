@@ -11,7 +11,6 @@ def gradient_descent(x,y):
 
     plt.ion()
     fig, ax = plt.subplots()
-    fig2, ax2 = plt.subplots()
 
     for i in range(iteration):
         y_pred=m_curr*x+b_curr
